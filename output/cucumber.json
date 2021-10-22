@@ -1,0 +1,147 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-22T05:13:28.855Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3814718800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Retail website login test",
+        "description": "",
+        "id": "login-to-retail-website;retail-website-login-test",
+        "after": [
+          {
+            "result": {
+              "duration": 796502800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26756700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on retail website login",
+            "match": {
+              "location": "stepDefinitions.LoginStepDef.user_is_on_retail_website_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41276000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on my account",
+            "match": {
+              "location": "stepDefinitions.LoginStepDef.user_click_on_my_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 692691800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on login",
+            "match": {
+              "location": "stepDefinitions.LoginStepDef.user_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83285000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter email \u0027eagles@tekschool.us\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027eagles@tekschool.us\u0027",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.LoginStepDef.user_enter_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 673202500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter password \u0027eagles\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027eagles\u0027",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.LoginStepDef.user_enter_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 452064600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on login button",
+            "match": {
+              "location": "stepDefinitions.LoginStepDef.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 614779300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user confirm the login status",
+            "match": {
+              "location": "stepDefinitions.LoginStepDef.user_confirm_the_login_status()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login to retail website",
+    "description": "",
+    "id": "login-to-retail-website",
+    "keyword": "Feature",
+    "uri": "classpath:features/login.feature",
+    "tags": []
+  }
+]
